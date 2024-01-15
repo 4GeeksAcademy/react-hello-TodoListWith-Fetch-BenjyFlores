@@ -16,19 +16,33 @@ body{
     margin-left: 400px;
     margin-right: 400px;
     text-align: center;
+    
 }
 
 ul li{
     border: 1px solid grey;
     list-style: none;
     list-style-position: center;
+    border-style: groove;
+    margin-right: 32px;
+    margin-left: 10px;
+    margin-bottom: 5px;
     padding: 5px;
 
 }
 input{
     border: none;
+    outline: none;
     
 }
 h1{
     margin-bottom: 10px;
+    padding: 10px;
+    font-style: bold;
+}
+.trash-button{
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    background-color: white;
 }
