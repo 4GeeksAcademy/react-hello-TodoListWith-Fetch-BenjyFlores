@@ -37,6 +37,7 @@ const Home = () => {
     >
       <div style={{ backgroundColor: "rgba(255, 255, 255, 0.8)", padding: "20px", borderRadius: "10px" }}>
         <h1 className="text-center">ToDo</h1>
+        <p>{`Number of Items: ${todos.length}`}</p>
         <ul>
           <li>
             <input
@@ -70,4 +71,3 @@ const Home = () => {
 };
 
 export default Home;
-
